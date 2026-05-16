@@ -1,0 +1,56 @@
+.datasheet h3{
+  color:var(--green);
+  font-size:1.7rem;
+  margin:12px 0 6px;
+}
+.datasheet p{
+  color:var(--muted);
+  font-weight:700;
+  margin:0;
+}
+.class-member-list{
+  display:grid;
+  gap:16px;
+}
+.class-member-block{
+  background:linear-gradient(145deg,rgba(16,25,26,.96),rgba(7,12,13,.96));
+  border:1px solid rgba(89,255,154,.22);
+  border-left:6px solid var(--green);
+  box-shadow:var(--shadow);
+  padding:20px;
+}
+.class-member-block h3{
+  margin:0 0 12px;
+  color:var(--green);
+  font-size:1.45rem;
+}
+.class-member-block ul{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+.class-member-block li{
+  border:1px solid var(--line);
+  background:#071010;
+  padding:9px 12px;
+  color:var(--text);
+  font-family:"JetBrains Mono",monospace;
+  font-size:.9rem;
+}
+.brand-mark{
+  display:none;
+}
+.brand{
+  gap:0;
+}
+.lab-card b,.spec-card b{
+  display:block;
+}
+.lab-card span,.spec-card span{
+  display:block;
+  margin-top:6px;
+  line-height:1.2;
+}

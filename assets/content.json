@@ -1,0 +1,104 @@
+{
+  "departments": [
+    {
+      "name": "Research",
+      "tag": "Concepts + ideas",
+      "description": "Explore physics topics, write explanations, and develop club content."
+    },
+    {
+      "name": "Graphic Designing",
+      "tag": "Visual identity",
+      "description": "Create posters, layouts, diagrams, and visual assets for Physoc."
+    },
+    {
+      "name": "Question Paper Design",
+      "tag": "Question sets",
+      "description": "Frame physics questions and structure papers for club rounds."
+    }
+  ],
+  "coreTeam": [
+    {
+      "role": "President",
+      "name": "Naitik Singhal"
+    },
+    {
+      "role": "Vice President",
+      "name": "Name to be added"
+    },
+    {
+      "role": "Research Head",
+      "name": "Name to be added"
+    },
+    {
+      "role": "Design Head",
+      "name": "Name to be added"
+    }
+  ],
+  "classMembers": {
+    "8": [],
+    "9": [],
+    "10": [],
+    "11": [],
+    "12": []
+  },
+  "resources": [
+    {
+      "category": "questions",
+      "title": "Common Paper Sample",
+      "description": "Sample question style for the common induction paper.",
+      "level": 70
+    },
+    {
+      "category": "questions",
+      "title": "Question Paper Archive",
+      "description": "Space for previous club question sets.",
+      "level": 82
+    },
+    {
+      "category": "research",
+      "title": "Research Paper",
+      "description": "Space for Physoc research papers and write-ups.",
+      "level": 65
+    },
+    {
+      "category": "uploads",
+      "title": "PNG Uploads",
+      "description": "Space for future uploaded posters, graphics, and images.",
+      "level": 45
+    }
+  ],
+  "inductions": {
+    "status": "Registration is open",
+    "summary": "Last date to register: May 19, 2026. After registration, applicants will appear for a common paper.",
+    "deadline": "May 19, 2026",
+    "registrationUrl": "https://forms.gle/cjvjZDjTxDWabmCp7",
+    "steps": [
+      {
+        "title": "Step 01: Registration",
+        "tag": "Till May 19, 2026",
+        "description": "Fill the official Physoc registration form."
+      },
+      {
+        "title": "Step 02: Common Paper",
+        "tag": "After registration",
+        "description": "All applicants will attempt the common selection paper."
+      },
+      {
+        "title": "Step 03: Selection",
+        "tag": "After paper",
+        "description": "Selected students become part of Physoc departments."
+      }
+    ]
+  },
+  "competitions": [
+    {
+      "title": "Physics Quiz",
+      "description": "Club competition item to be updated from admin."
+    }
+  ],
+  "contact": {
+    "email": "physoc@dpsrkp.net",
+    "phone": "",
+    "note": "For questions about the club, departments, resources, or selections."
+  }
+}

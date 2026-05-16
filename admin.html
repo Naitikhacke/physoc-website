@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Physoc | Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/admin.css">
+</head>
+<body data-page="admin">
+  <main class="admin-shell">
+    <section id="adminLock" class="admin-lock">
+      <p class="mono eyebrow">PHYSOC ADMIN</p>
+      <h1>Locked Control Panel</h1>
+      <p>Enter the admin password to edit website content.</p>
+      <form id="loginForm" class="admin-login">
+        <input id="adminPassword" type="password" placeholder="Password" autocomplete="current-password">
+        <button class="button primary" type="submit">Unlock</button>
+      </form>
+      <div id="loginMessage" class="transmission mono"></div>
+    </section>
+
+    <section id="adminPanel" class="admin-panel" hidden>
+      <div class="admin-top">
+        <div>
+          <p class="mono eyebrow">PHYSOC CONTROL</p>
+          <h1>Website Admin</h1>
+        </div>
+        <div class="admin-actions">
+          <a class="button ghost" href="index.html">View Site</a>
+          <button id="saveContent" class="button primary" type="button">Save Changes</button>
+        </div>
+      </div>
+
+      <div class="admin-grid">
+        <section class="admin-card">
+          <h2>Departments</h2>
+          <div id="departmentsEditor"></div>
+          <button class="button ghost" data-add="departments" type="button">Add Department</button>
+        </section>
+
+        <section class="admin-card">
+          <h2>Core Team</h2>
+          <div id="coreEditor"></div>
+          <button class="button ghost" data-add="coreTeam" type="button">Add Core Role</button>
+        </section>
+
+        <section class="admin-card wide">
+          <h2>Members By Class</h2>
+          <div id="classEditor"></div>
+        </section>
+
+        <section class="admin-card wide">
+          <h2>Resources</h2>
+          <div id="resourcesEditor"></div>
+          <button class="button ghost" data-add="resources" type="button">Add Resource</button>
+        </section>
+
+        <section class="admin-card">
+          <h2>Inductions</h2>
+          <div id="inductionsEditor"></div>
+        </section>
+
+        <section class="admin-card">
+          <h2>Competitions</h2>
+          <div id="competitionsEditor"></div>
+          <button class="button ghost" data-add="competitions" type="button">Add Competition</button>
+        </section>
+        <section class="admin-card">
+          <h2>Contact Details</h2>
+          <div id="contactEditor"></div>
+        </section>
+      </div>
+      <div id="saveMessage" class="transmission mono"></div>
+    </section>
+  </main>
+  <script src="assets/admin.js"></script>
+</body>
+</html>

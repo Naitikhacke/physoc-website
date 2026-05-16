@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Physoc | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/overrides.css">
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <a class="brand" href="index.html"><span>Physoc</span></a>
+    <button class="menu-toggle" aria-label="Open navigation"><span></span><span></span><span></span></button>
+    <nav class="nav-links">
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="members.html">Members</a>
+      <a href="resources.html">Resources</a>
+      <a href="events.html">Inductions</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-scope">
+      <canvas id="scopeHero" aria-label="Interactive physics waveform"></canvas>
+      <div class="hero-overlay">
+        <p class="mono eyebrow">PHYSOC / DPS RK PURAM</p>
+        <h1>Physoc</h1>
+        <p>Physics Club of DPS RK Puram.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="about.html">Explore Physoc</a>
+          <a class="button ghost" href="#demos">Run Demos</a>
+        </div>
+      </div>
+      <div class="scope-readout mono">PHYSICS CLUB&nbsp;&nbsp; STATUS: ACTIVE&nbsp;&nbsp; CURSOR: MOVE</div>
+    </section>
+
+    <section class="equation-ticker" aria-label="Scrolling physics equations">
+      <div class="ticker-track mono">
+        <span>E = mc^2</span><span>F = ma</span><span>V = IR</span><span>p = mv</span><span>W = Fd</span><span>lambda f = v</span>
+        <span>E = mc^2</span><span>F = ma</span><span>V = IR</span><span>p = mv</span><span>W = Fd</span><span>lambda f = v</span>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="stats-grid">
+        <article class="readout"><span class="mono">SCHOOL</span><strong>DPS</strong><small>RK Puram</small></article>
+        <article class="readout"><span class="mono">DEPTS</span><strong data-count="3">0</strong><small>club departments</small></article>
+        <article class="readout"><span class="mono">CLASSES</span><strong>8-12</strong><small>members across grades</small></article>
+        <article class="readout"><span class="mono">MODE</span><strong>CLUB</strong><small>ideas, design, questions</small></article>
+      </div>
+    </section>
+
+    <section class="section split reveal">
+      <div>
+        <p class="mono eyebrow">ABOUT / SCHOOL CLUB</p>
+        <h2>A physics club for curious DPS RK Puram students.</h2>
+      </div>
+      <p>Physoc is for students who enjoy physics beyond the textbook: research, graphic designing, question paper design, competitions, discussions, and creative science communication.</p>
+      <a class="inline-link" href="about.html">Learn about Physoc</a>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-head">
+        <div>
+          <p class="mono eyebrow">DEPARTMENTS / PHYSOC</p>
+          <h2>Three ways to contribute</h2>
+        </div>
+        <a class="button ghost" href="about.html">See Departments</a>
+      </div>
+      <div class="event-grid">
+        <article class="lab-card"><b>Research</b><span>Concepts + ideas</span><p>Explore physics topics and turn them into clear club material.</p></article>
+        <article class="lab-card"><b>Graphic Designing</b><span>Visual identity</span><p>Create posters, layouts, and visuals for Physoc work.</p></article>
+        <article class="lab-card"><b>Question Paper Design</b><span>Competitions</span><p>Frame physics questions and papers for club rounds.</p></article>
+      </div>
+    </section>
+
+    <section id="demos" class="section reveal">
+      <div class="section-head">
+        <div>
+          <p class="mono eyebrow">PLAYABLE / SIMULATIONS</p>
+          <h2>Interactive physics demos</h2>
+        </div>
+      </div>
+      <div class="demo-grid">
+        <article class="sim-panel">
+          <h3>Wave Interference</h3>
+          <canvas class="mini-sim" data-sim="waves"></canvas>
+          <input type="range" min="1" max="12" value="6" data-control="waves">
+        </article>
+        <article class="sim-panel">
+          <h3>Projectile Motion</h3>
+          <canvas class="mini-sim" data-sim="projectile"></canvas>
+          <input type="range" min="15" max="75" value="42" data-control="projectile">
+        </article>
+        <article class="sim-panel">
+          <h3>Electric Field</h3>
+          <canvas class="mini-sim" data-sim="field"></canvas>
+          <input type="range" min="1" max="9" value="5" data-control="field">
+        </article>
+      </div>
+    </section>
+
+    <section class="join-cta reveal">
+      <canvas id="arcCanvas"></canvas>
+      <div>
+        <p class="mono eyebrow">QUERY / CONTACT</p>
+        <h2>Have a question for Physoc?</h2>
+        <a class="button primary" href="contact.html">Contact Us</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span class="mono">PHYSOC // DPS RK PURAM</span>
+    <span>Physics. Design. Questions.</span>
+  </footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>
